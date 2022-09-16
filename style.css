@@ -2,6 +2,12 @@
 @charset "UTF-8";
 body
 {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f27a30+0,1e101c+100 */
+background: #f27a30; /* Old browsers */
+background: -moz-linear-gradient(top,  #f27a30 0%, #1e101c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f27a30 0%,#1e101c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f27a30 0%,#1e101c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f27a30', endColorstr='#1e101c',GradientType=0 ); /* IE6-9 */
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0px;
@@ -33,12 +39,21 @@ body
 }
 .box
 {
-    height: 150px; 
-    width: 150px;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4bc427+0,1e101c+100 */
+background: #4bc427; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #4bc427 0%, #1e101c 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #4bc427 0%,#1e101c 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #4bc427 0%,#1e101c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4bc427', endColorstr='#1e101c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    height: 100px; 
+    width: 100px;
     float: left; 
     background-color:tan; 
     margin: 15px; 
     opacity:.5;
+    border-radius: 75px;
 
 }
 h1,h2,h3,h4,h5,h6,p,li 
@@ -63,3 +78,33 @@ h1,h2,h3,h4,h5,h6,p,li
 { 
     clear: both; 
 } 
+
+video 
+{
+        width: 400px;
+        padding: 15px;
+        margin: 15px;
+        background-color:black;
+        border:2px white solid;
+        box-shadow: 10px 10px 5px black;
+}
+button
+{
+    background-color:black;
+    color:white;
+    height:40px;
+    border:2px white solid;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 5px;
+}
+button:hover {
+    background-color:beige;
+    color:black;
+    height:40px;
+    border:2px white solid;
+    box-shadow: -10px -10px 5px black;
+    border-radius: 5px;
+    }
+
+
+    
