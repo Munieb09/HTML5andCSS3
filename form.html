@@ -34,13 +34,32 @@
         <option value="Other">Other</option>
         </select>
      </p>
-     <p><input type="submit" value="Click here to submit the form"/></p>
-     <p><input type="reset" value="Click here to reset the form"/></p>
-              
-              
+     <p><label for="countries">Where do you live?</label>
+        <input list="countries">
+        <datalist id="countries">
+            <option value="Afghanistan">
+            <option value="Albania">
+            <option value="Algeria">
+            <option value="Andorra">
+            <option value="Angola">
+            <option value="Antigua and Barbuda">
+            <option value="Argentina">
+            <option value="Armenia">
+            <option value="Aruba">
+            <option value="Australia">
+            <option value="Austria">
+            <option value="Azerbaijan">
+        </datalist>
         
+     <p><input type="submit" value="Click here to submit the form"/></p>
+     <p><input type="reset" value="Click here to reset the form"/></p>       
 </form>
 
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="number" id="a">+
+    <input type="number" id="b">=
+    <output name="x" for="a b"></output>
+</form>
 </div>
 </body>
 </html>
