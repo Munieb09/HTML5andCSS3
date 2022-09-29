@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<style>
+input:checked + label 
+{
+opacity:1;
+font-size:5rem;
+color: red;
+opacity:1;
+}
+input, label
+{
+height:90px;
+width:300px;
+opacity:0;
+}
+Div
+{
+position:absolute;
+top:0;
+height:100px;
+width:300px;
+font-size:1rem;
+}
+.button
+{
+border: thin gray solid; 
+background-color: yellow; 
+padding:1rem;
+width:300px;
+}
+</style>
+</head>
+<body>
+<h3 class="button">CLICK HERE IF 2 + 2 = 4<br>Click again to hide the answer</h3>
+<div>
+<input type="checkbox" name="change">
+<label for="change"> Correct!</label>
+</div> </body>
+</html>
